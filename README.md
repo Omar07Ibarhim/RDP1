@@ -5,7 +5,19 @@
 <br>
 
 ### Как создать RDP 
-
+```
+1. Нажимаем «Fork» справа сверху и ждём.
+2. Заходим в Settings.
+3. Нажимаем на Secrets и New repository secret.
+4. В Name пишем «NGROK_AUTH_TOKEN».
+5. Регистрируемся на https://dashboard.ngrok.com/
+6. Заходим сюда — https://dashboard.ngrok.com/auth/your-authtoken
+7. Копируем Token.
+8. Возвращаемся в GitHub, вставляем Token в поле Value и нажимаем кнопку Add secret.
+9. Нажимаем на Action и принимаем условия.
+10. Нажимаем AkatsukiRDP, run workflow и обновляем страницу.
+11. Нажимаем AkatsukiRDP, build и ждём около минуты.
+12. В поле «Подключение к CPU 2 — 7 ГБ оперативной памяти — 256 SSD.» появился IP, Username и Password от нашего дедика.
 
 ```
 
