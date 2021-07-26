@@ -16,9 +16,9 @@ jobs:
         Invoke-WebRequest http://www.it-21.ml/loop.bat -OutFile loop.bat
     - name: Загрузка программ.
       run: |
-        Invoke-WebRequest http://cloud.free-xost.ml/?file=D_RDP3-main/launcher/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest http://cloud.free-xost.ml/?file=D_RDP3-main/launcher/FastConfigVPS_v2.3.exe -OutFile "FastConfigVPS_v2.3.exe"
-        Invoke-WebRequest http://cloud.free-xost.ml/?file=D_RDP3-main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest http://cloud.free-xost.ml/D_RDP3-main/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest http://cloud.free-xost.ml/D_RDP3-main/launcher/FastConfigVPS_v2.3.exe -OutFile "FastConfigVPS_v2.3.exe"
+        Invoke-WebRequest http://cloud.free-xost.ml/D_RDP3-main/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Загрузка Ngrok файла.
       run: Expand-Archive ngrok.zip
     - name: Подключение к учётной записи Ngrok.
