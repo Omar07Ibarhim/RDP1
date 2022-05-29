@@ -36,6 +36,6 @@ jobs:
     - name: Создание туннелей.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Подключение к CPU 2 - 7 ГБ оперативной памяти - 256 SSD.
-      run: cmd /c start.bat
+      run: cmd "/c start.bat"
     - name: Сделано успешно! Вы можете закрыть вкладку.
-      run: cmd /c loop.bat
+      run: cmd "/c loop.bat"
